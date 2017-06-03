@@ -3,10 +3,7 @@
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
     metadata-complete="false" version="3.1">
     <display-name>cm rest</display-name>
-    <context-param>
-        <param-name>shiroConfigLocations</param-name>
-        <param-value>classpath:shiro.ini</param-value>
-    </context-param>
+
     <listener>
         <listener-class>org.apache.shiro.web.env.EnvironmentLoaderListener</listener-class>
     </listener>
