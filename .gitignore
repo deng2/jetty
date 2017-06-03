@@ -1,3 +1,5 @@
 # Maven and eclipse
 target
 .settings
+# Vim
+*.swp
