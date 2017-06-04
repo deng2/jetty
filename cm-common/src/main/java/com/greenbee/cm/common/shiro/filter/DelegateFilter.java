@@ -1,4 +1,4 @@
-package com.greenbee.cm.common.filter;
+package com.greenbee.cm.common.shiro.filter;
 
 import javax.servlet.Filter;
 import javax.servlet.ServletRequest;

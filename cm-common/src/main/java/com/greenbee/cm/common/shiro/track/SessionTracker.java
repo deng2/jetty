@@ -1,4 +1,4 @@
-package com.greenbee.cm.common.track;
+package com.greenbee.cm.common.shiro.track;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
