@@ -1,5 +1,11 @@
-# Maven and eclipse
+# Maven
 target
+# Eclipse
 .settings
+.classpath
+.project
+# IDEA
+.idea
+*.iml
 # Vim
 *.swp

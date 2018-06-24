@@ -4,7 +4,7 @@
     <parent>
         <groupId>com.greenbee.cm</groupId>
         <artifactId>cm</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
     <artifactId>cm-dist</artifactId>
     <packaging>pom</packaging>
@@ -19,6 +19,9 @@
                 <configuration>
                     <descriptor>src/main/assembly/dep.xml</descriptor>
                     <tarLongFileMode>gnu</tarLongFileMode>
+                    <appendAssemblyId>false</appendAssemblyId>
+                    <finalName>cm</finalName>
+                    <attach>false</attach>
                 </configuration>
                 <executions>
                     <execution>
