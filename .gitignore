@@ -1,5 +1,14 @@
-# Maven and eclipse
 target
+.idea
+.metadata
+.recommenders
 .settings
-# Vim
-*.swp
+.cache-main
+.cache-tests
+.classpath
+.project
+*.iml
+RemoteSystemsTempFiles
+node_modules
+_.sw*
+.*.sw*
